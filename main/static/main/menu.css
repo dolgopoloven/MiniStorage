@@ -1,5 +1,5 @@
 #menu {
-    border-radius: 4px;
+    border-radius: 2px;
     list-style: none;
     padding-left: 0;
     background: RGB(150, 150, 150);
@@ -20,13 +20,21 @@
     display: none;
 }
 
+#menu > li:hover > ul > li {
+    padding-top: 2px;
+    background-color: RGB(253, 254, 255);
+    border-radius: 4px;
+}
+
+
 #menu > li:hover > ul {
+    padding-bottom: 2px;
     display: block;
     width: 250px;
 }
 
 #menu span {
-    border-radius: 4px;
+    border-radius: 2px;
     background: RGB(150, 150, 150);
     color: white;
     padding: 0 15px;
