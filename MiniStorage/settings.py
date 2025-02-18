@@ -25,7 +25,7 @@ SECRET_KEY = 'aa-%_&-&vu64d1-kl$@qwvd91*lk)z%-yy+512f3n@!vvfttfz'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['stms.ava-med.ru']
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
